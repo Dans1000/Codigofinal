@@ -1,5 +1,5 @@
 Inicio:
-           MOV ACC, CTE        ;Se mueve el acumulador a la posicio de tam
+           MOV ACC, CTE        ;Se mueve el acumulador a la posicio 
 	   MOV DPTR, ACC       ;Se mueve el valor de acc al data pointer
 	   MOV ACC, [DPTR]     ;Se mueve el valor que hay en el data pointer a el acumulador
 Negar: 
