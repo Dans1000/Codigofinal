@@ -25,7 +25,6 @@ Case:      MOV ACC, Q          ;Se empiezan a evaluar los diferentes casos que e
 	   MOV ACC, Q
 	   MOV DPTR, ACC
            MOV ACC, [DPTR]
-		                ;XOR
 	   JZ IGUALES
 DISTINTOS: MOV ACC, A
            JZ DISTINTOS01
